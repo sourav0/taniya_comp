@@ -1,0 +1,102 @@
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 45px;
+    top: 20px;
+}
+.left img{
+    width: 100px;
+    filter :invert(100%) ;
+    margin: 5px; 
+}
+.left div{
+    text-align: center;
+    line-height: 0px;
+}            
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+.navbar{
+  display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 24px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 34px 20px;
+
+}
+.navbar li a:hover {
+    text-decoration: underline;
+    color: teal; 
+    padding: 34px 20px;
+}
+.navbar li a.active{
+  text-decoration: underline;
+}
+.container {  
+    padding: 50px;  
+    background-color:none; 
+    border: 2px solid;
+    border-radius: 6px; 
+    width: 55%;
+    margin:12%;
+  }  
+  .frm-grp input[type=text] {  
+    width: 100%;  
+    padding: 15px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    background: white;  
+  }
+  input[type=email],textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 5px,0,22px,0;
+    display: inline-block;  
+    border: none;  
+    background: white;  
+    
+  }
+  .s1{
+    padding: 12px 347px;
+    background-color: #206bc0;
+    color: white;
+    margin: 18px 2px;
+    border: none;
+    cursor: pointer;
+    width: 105%;
+    opacity: 0.9;
+    display: flex;
+  }
+  .frm-grp:focus {  
+    background-color: rgb(211, 199, 176);  
+    outline: none;  
+  }  
+  hr {  
+    border: 1px solid #7b7676;  
+    margin-bottom: 25px;  
+  }    
+  .registerbtn {  
+    background-color: #206bc0;  
+    color: white;  
+    padding: 16px 347px;  
+    margin: 4px 2px;  
+    border: none;  
+    cursor: pointer;  
+    width: 105%;
+    opacity: 0.9; 
+    display: flex;
+    
+}
+ .registerbtn:hover {  
+    opacity: 1;  
+  }  
+  
